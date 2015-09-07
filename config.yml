@@ -1,0 +1,6 @@
+# bundle_id = "domain.id"
+# path is the relative path to the workflow in the project root
+---
+path: workflow
+domain: xinranliu.me
+id: ajust-monitor-resolution
