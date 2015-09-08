@@ -14,8 +14,10 @@ tell application "System Events" to tell process "System Preferences"
   tell tab group 1 of window 1
     click radio button "显示器"
     set btns to entire contents of radio group 1
-    repeat with value in btns
-      log string value
+    repeat with btn in btns
+      # radio btn
+      # log class of btn
+      set res to word 3 of btn
     end repeat
   end tell
 end tell
